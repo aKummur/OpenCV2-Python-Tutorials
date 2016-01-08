@@ -32,11 +32,14 @@ Installing OpenCV from prebuilt binaries
 
 8. Copy **cv2.pyd** to **C:/Python27/lib/site-packeges**.
 
-9. Open Python IDLE and type following codes in Python terminal.
+9. Goto **opencv/build/bin** folder.
+
+10. Copy **opencv_ffmpeg<opencv_version><32/64bit>.dll** to  **C:/Python27** or add **opencv/build/bin** to your system PATH.
+
+11. Open Python IDLE and type following codes in Python terminal.
 
     >>> import cv2
     >>> print cv2.__version__
-    
 If the results are printed out without any errors, congratulations !!! You have installed OpenCV-Python successfully.
 
 
